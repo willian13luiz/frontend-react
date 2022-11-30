@@ -1,0 +1,31 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    background-color: black;
+    height: 50px;
+}
+
+.itemMenu {
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+}
+
+.itemMenu:hover {
+    color: coral;
+}
+
+nav {
+    height: 100%;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+}
